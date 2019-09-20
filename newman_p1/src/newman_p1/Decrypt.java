@@ -41,7 +41,7 @@ public class Decrypt {
 		}
 		
 		System.out.println("Decrypted 4 Digit Integer:\n" + nd1 + nd2 + nd3 + nd4);		
-
+		scnr.close();
 	}
 
 }

@@ -38,6 +38,7 @@ public class BMIcalc {
 		System.out.println("Normal Weight: 18.5 - 24.9");
 		System.out.println("Overweight: 25 - 29.9");
 		System.out.println("Obesity: 30 or greater ");
+		scnr.close();
 	}
 
 }

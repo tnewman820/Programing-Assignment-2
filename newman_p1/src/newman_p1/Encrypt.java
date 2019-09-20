@@ -19,7 +19,7 @@ public class Encrypt {
 		nd3 = ((d1 + 7) % 10);
 		nd4 = ((d2 + 7) % 10);
 		System.out.println("Encrypted 4 Digit Integer:\n" + nd1 + nd2 + nd3 + nd4);		
-
+		scnr.close();
 	}
 
 }
