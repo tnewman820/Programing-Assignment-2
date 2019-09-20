@@ -17,7 +17,7 @@ public class PollProg {
 		
 		//variable declaration
 		int [][] responses = new int[4+1][9+1]; 
-		int n = 1, k = 0, topicNum, highestPoints, x = 1, y = 1;
+		int n = 0, k = 0, topicNum, highestPoints, x = 1, y = 1;
 		double topic1Avg, topic2Avg, topic3Avg, topic4Avg, topic5Avg;
 		
 		//while loop for each poll
@@ -51,14 +51,14 @@ public class PollProg {
 		topic4Avg = (responses[3][0] + responses[3][1] + responses[3][2] + responses[3][3] + responses[3][4] + responses[3][5] + responses[3][6] + responses[3][7] + responses[3][8] +responses[3][9])/nDouble;
 		topic5Avg = (responses[4][0] + responses[4][1] + responses[4][2] + responses[4][3] + responses[4][4] + responses[4][5] + responses[4][6] + responses[4][7] + responses[4][8] +responses[4][9])/nDouble;
 		//Table for results
-		System.out.println("------------Poll Results------------ ");
-		System.out.println("-Topic#|1|2|3|4|5|6|7|8|9|10| Avg| - ");
-		System.out.println("------------------------------------ ");
-		System.out.println("Topic1:|" + responses[0][0] + " " + responses[0][1] + " " + responses[0][2] + " " + responses[0][3] + " " + responses[0][4] + " " + responses[0][5] + " " +  responses[0][6] + " " + responses[0][7] + " " + responses[0][8] + " " + responses[0][9] + " | " + topic1Avg);
-		System.out.println("Topic2:|" + responses[1][0] + " " + responses[1][1] + " " + responses[1][2] + " " + responses[1][3] + " " + responses[1][4] + " " + responses[1][5] + " " +  responses[1][6] + " " + responses[1][7] + " " + responses[1][8] + " " + responses[1][9] + " | " + topic2Avg);
-		System.out.println("Topic3:|" + responses[2][0] + " " + responses[2][1] + " " + responses[2][2] + " " + responses[2][3] + " " + responses[2][4] + " " + responses[2][5] + " " +  responses[2][6] + " " + responses[2][7] + " " + responses[2][8] + " " + responses[2][9] + " | " + topic3Avg);
-		System.out.println("Topic4:|" + responses[3][0] + " " + responses[3][1] + " " + responses[0][2] + " " + responses[3][3] + " " + responses[3][4] + " " + responses[3][5] + " " +  responses[3][6] + " " + responses[3][7] + " " + responses[3][8] + " " + responses[3][9] + " | " + topic4Avg);
-		System.out.println("Topic5:|" + responses[4][0] + " " + responses[4][1] + " " + responses[4][2] + " " + responses[4][3] + " " + responses[4][4] + " " + responses[4][5] + " " +  responses[4][6] + " " + responses[4][7] + " " + responses[4][8] + " " + responses[4][9] + " | " + topic5Avg);
+		System.out.println("---------------Poll Results--------------- ");
+		System.out.println("-   Topic    |1|2|3|4|5|6|7|8|9|10| Avg |- ");
+		System.out.println("------------------------------------------ ");
+		System.out.println(" Motorcycles:|" + responses[0][0] + " " + responses[0][1] + " " + responses[0][2] + " " + responses[0][3] + " " + responses[0][4] + " " + responses[0][5] + " " +  responses[0][6] + " " + responses[0][7] + " " + responses[0][8] + " " + responses[0][9] + " | " + topic1Avg + " | ");
+		System.out.println("        Cars:|" + responses[1][0] + " " + responses[1][1] + " " + responses[1][2] + " " + responses[1][3] + " " + responses[1][4] + " " + responses[1][5] + " " +  responses[1][6] + " " + responses[1][7] + " " + responses[1][8] + " " + responses[1][9] + " | " + topic2Avg + " | ");
+		System.out.println("      Gaming:|" + responses[2][0] + " " + responses[2][1] + " " + responses[2][2] + " " + responses[2][3] + " " + responses[2][4] + " " + responses[2][5] + " " +  responses[2][6] + " " + responses[2][7] + " " + responses[2][8] + " " + responses[2][9] + " | " + topic3Avg + " | ");
+		System.out.println("Powerlifting:|" + responses[3][0] + " " + responses[3][1] + " " + responses[0][2] + " " + responses[3][3] + " " + responses[3][4] + " " + responses[3][5] + " " +  responses[3][6] + " " + responses[3][7] + " " + responses[3][8] + " " + responses[3][9] + " | " + topic4Avg + " | ");
+		System.out.println("    Politics:|" + responses[4][0] + " " + responses[4][1] + " " + responses[4][2] + " " + responses[4][3] + " " + responses[4][4] + " " + responses[4][5] + " " +  responses[4][6] + " " + responses[4][7] + " " + responses[4][8] + " " + responses[4][9] + " | " + topic5Avg + " | ");
 		System.out.println();
 		
 		//calculate highest point total
